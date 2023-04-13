@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "HankenGrotesk";
+    src: url(fonts/HankenGrotesk-Medium.ttf);
+    
+}
+
+.outer-one{
+    max-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    margin:13rem auto;
+    border-radius: 15px/30px;
+    font-family: "HankenGrotesk", sans-serif;
+    border: 10px;
+    box-shadow: 0px 10px 20px  hsl(241, 100%, 89%)
+
+    
+}
+.inner-left{
+    max-width: 230px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 15px/30px;
+    color:hsl(0, 0%, 100%);
+    padding:10px 10px;
+}
+.Result{
+    padding: 10px auto;
+    color:hsl(221, 100%, 96%);
+}
+.Result-no{
+    padding: 5px 5px;
+    margin: 0px auto;
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.no{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.score-paragraph{
+    padding: 0 10px;
+    margin:5px auto;
+    font-size: 15px;
+    color:hsl(221, 100%, 96%);
+    position:relative;
+    bottom:5px;
+}
+.inner-right{
+    width:50%;
+    text-align:left;
+    padding:10px 10px 0 20px;
+}
+
+    
+
+.summary-all{
+    padding:0px 10px 0px 0px;
+    font-size: 16px;
+    display:grid;
+    
+}
+.Reaction{
+    display:flex;
+    justify-content: space-between;
+    background:#ffe4c4 ;
+    border-radius: 5px;
+    padding:5px 5px;
+    margin:5px 0;
+    
+
+
+}
+
+.Memory{
+    display:flex;
+    justify-content: space-between;
+    background:	#fff8dc ;
+    border-radius: 5px;
+    padding:5px 5px;
+    margin:5px 0;
+
+}
+.Verbal{
+    display:flex;
+    justify-content: space-between;
+    background:	#f0ffff ;
+    border-radius: 5px;
+    padding:5px 5px;
+    margin:5px 0;
+
+}
+.Visual{
+    display:flex;
+    justify-content: space-between;
+    background:	#f8f8ff ;
+    border-radius: 5px;
+    padding:5px 5px;
+    margin:5px 0;
+
+}
+
+.span-Reaction{
+    color: hsl(0, 100%, 67%)
+}
+
+.span-memory{
+    color: hsl(39, 100%, 56%)
+}
+.span-verbal{
+    color: hsl(166, 100%, 37%)
+}
+.span-visual{
+    color: hsl(234, 85%, 45%)
+}
+
+
+
+.of{
+    font-size: 14px;
+    color:hsl(221, 100%, 96%);
+    font-weight: lighter;
+}
+.black{
+    color:black;
+}
+.grey{
+    color:grey;
+}
+.button{
+    color:white;
+    background-color: black;
+    width:200px;
+    height:30px;
+    margin:20px auto;
+    padding: 5px;
+    border:0px;
+    border-radius: 20px;
+
+}
